@@ -10,8 +10,7 @@ $PATH is a colon-separated list of paths. When you type a command into your comm
 
 To gain a better understanding of how $PATH works, type in `echo $PATH`. Your terminal should print the value of your $PATH variable. Mine looks like this:
 
-`
-/Users/amandachang/.rvm/gems/ruby-2.2.0-preview1/bin:/Users/amandachang/.rvm/gems/ruby-2.2.0-preview1@global/bin:/Users/amandachang/.rvm/rubies/ruby-2.2.0-preview1/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/amandachang/.rvm/bin
+`/Users/amandachang/.rvm/gems/ruby-2.2.0-preview1/bin:/Users/amandachang/.rvm/gems/ruby-2.2.0-preview1@global/bin:/Users/amandachang/.rvm/rubies/ruby-2.2.0-preview1/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/amandachang/.rvm/bin
 `
 
 On first glance, this looks like an indecipherable string of characters. So let's replace the colons with line breaks. Run the command `echo $PATH | tr ":" "\n"` to do so. Now I get a list:
