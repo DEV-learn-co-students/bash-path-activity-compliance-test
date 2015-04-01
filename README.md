@@ -52,11 +52,11 @@ Repeat the process with each path in the list until you find Ruby! My ruby was i
 ( ) $DOG
 ( ) $LLLLLLLL
 
-?: If a gem exists in three different folders in your $PATH, which version of the gem will your system use?
+?: If Ruby exists in three different folders in your $PATH, which version of Ruby will your system use?
 
-( ) The latest version of the gem
-( ) The version that is located in the first directory in the list that includes the gem
-( ) The version that is located in the last directory in the list that includes the gem
+( ) The latest stable version of Ruby
+( ) The version that is located in the first directory in the list that includes Ruby
+( ) The version that is located in the last directory in the list that includes Ruby
 
 ?: True or False: Running `rvm use system` will modify your $PATH.
 
