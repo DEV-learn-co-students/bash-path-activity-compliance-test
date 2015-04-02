@@ -1,6 +1,6 @@
 #What is `$PATH`?
 
-In your `.bash_profile` (and Unix in general), an environment variable is characterized by a dollar sign and an uppercase variable name. One example of this is `$PATH`.
+In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
 
 `$PATH` is a colon-separated list of paths. When you type a command into your command-line, your computer will seach for instructions in the listed directories.
 
@@ -44,13 +44,6 @@ Repeat the process with each path in the list until you find Ruby! My ruby was i
 ???
 
 #Quiz!
-
-?: Which of the following is NOT a possible example of a BASH environment variable?
-
-( ) `$PATH`
-( ) `$env`
-( ) `$DOG`
-( ) `$LLLLLLLL`
 
 ?: If Ruby exists in three different folders in your `$PATH`, which version of Ruby will your system use?
 
