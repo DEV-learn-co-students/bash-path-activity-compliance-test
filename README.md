@@ -2,7 +2,7 @@
 
 In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
 
-`$PATH` is a colon-separated list of paths. When you type a command into your command-line, your computer will seach for instructions in the listed directories.
+`$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, your computer will seach for instructions in the listed directories.
 
 #Activity
 
