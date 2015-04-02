@@ -6,7 +6,7 @@ In your `.bash_profile` (and Unix in general), a variable is characterized by a 
 
 # Where is `$PATH` defined?
 
-`$PATH` can be defined in a few different places on your computer, with different results:
+`$PATH` can be defined in a few different places on your computer:
 
 __For an individual user__:
 * `~/.bash_profile`
