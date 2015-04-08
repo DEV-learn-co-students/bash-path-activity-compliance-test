@@ -1,6 +1,6 @@
 ---
   tags: path
-  language: bash
+  languages: bash
 ---
 
 # Path Activity
