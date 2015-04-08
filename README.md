@@ -60,20 +60,3 @@ So what happens when your computer tries to run Ruby? In order to find the right
 Copy the first path in your list, and run `ls DIRECTORY_NAME | grep 'ruby'`. For example, I will run `ls /Users/amandachang/.rvm/gems/ruby-2.2.0-preview1/bin | grep 'ruby'`.
 
 Repeat the process with each path in the list until you find Ruby! My ruby was in `/Users/amandachang/.rvm/rubies/ruby-2.2.0-preview1/bin`. Now run `which ruby`. The output should match the directory path that you found manually.
-
-???
-
-#Quiz!
-
-?: If Ruby exists in three different folders in your `$PATH`, which version of Ruby will your system use?
-
-( ) The latest stable version of Ruby
-( ) The version that is located in the first directory in the list that includes Ruby
-( ) The version that is located in the last directory in the list that includes Ruby
-
-?: True or False: Running `rvm use system` will modify your `$PATH`.
-
-( ) True
-( ) False
-
-???
