@@ -1,3 +1,9 @@
+---
+  tags: path, bash
+  language: unix
+  resources: 0
+---
+
 #What is `$PATH`?
 
 In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
