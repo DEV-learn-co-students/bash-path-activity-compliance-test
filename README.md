@@ -1,9 +1,7 @@
 ---
-  tags: path, bash
+  tags: path
   language: bash
-  resources: 0
 ---
-
 
 # Path Activity
 
