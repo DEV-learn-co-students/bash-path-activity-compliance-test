@@ -1,6 +1,6 @@
 ---
   tags: path, bash
-  language: unix
+  language: bash
   resources: 0
 ---
 
