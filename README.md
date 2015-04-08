@@ -4,6 +4,7 @@
   resources: 0
 ---
 
+
 # Path Activity
 
 ## What is `$PATH`?
