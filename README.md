@@ -4,13 +4,15 @@
   resources: 0
 ---
 
-#What is `$PATH`?
+# Path Activity
+
+## What is `$PATH`?
 
 In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
 
 `$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, you are running a program. But where does that program live? When your computer receives a command to run a program, it will seach for that program in the directories listed in your `$PATH`.
 
-# Where is `$PATH` defined?
+## Where is `$PATH` defined?
 
 `$PATH` can be defined in a few different places on your computer:
 
@@ -22,9 +24,9 @@ __For global changes__:
 * `/etc/profile`
 * `/etc/bashrc`
 
-#Activity
+## Activity
 
-##Echo `$PATH`
+### Echo `$PATH`
 
 To gain a better understanding of how `$PATH` works, type in `echo $PATH`. Your terminal should print the value of your `$PATH` variable. Mine looks like this:
 
@@ -51,7 +53,7 @@ On first glance, this looks like an indecipherable string of characters. So let'
 /Users/amandachang/.rvm/bin
 ```
 
-##Imitate your system
+### Imitate your system
 
 So what happens when your computer tries to run Ruby? In order to find the right version, it searches through the directories listed, __in order__.
 
