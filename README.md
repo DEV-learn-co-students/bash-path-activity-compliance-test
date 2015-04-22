@@ -58,3 +58,7 @@ So what happens when your computer tries to run Ruby? In order to find the right
 Copy the first path in your list, and run `ls DIRECTORY_NAME | grep 'ruby'`. For example, I will run `ls /Users/amandachang/.rvm/gems/ruby-2.2.0-preview1/bin | grep 'ruby'`.
 
 Repeat the process with each path in the list until you find Ruby! My ruby was in `/Users/amandachang/.rvm/rubies/ruby-2.2.0-preview1/bin`. Now run `which ruby`. The output should match the directory path that you found manually.
+
+## Resources
+
+(BASH and the One True Path)[http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/]
