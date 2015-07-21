@@ -6,8 +6,6 @@ languages: bash
 # Path Activity
 ## What is `$PATH`?
 
-JEFF IS THE BEST
-
 In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
 
 `$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, you are running a program. But where does that program live? When your computer receives a command to run a program, it will seach for that program in the directories listed in your `$PATH`.
