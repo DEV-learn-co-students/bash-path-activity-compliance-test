@@ -59,4 +59,4 @@ Repeat the process with each path in the list until you find Ruby! My ruby was i
 
 [BASH and the One True Path](http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/)
 
-<a href='https://learn.co/lessons/bash-path-activity' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/bash-path-activity' title='Path Activity'>Path Activity</a> on Learn.co and start learning to code for free.</p>
