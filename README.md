@@ -3,7 +3,7 @@
 
 In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
 
-`$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, you are running a program. But where does that program live? When your computer receives a command to run a program, it will seach for that program in the directories listed in your `$PATH`.
+`$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, you are running a program. But where does that program live? When your computer receives a command to run a program, it will search for that program in the directories listed in your `$PATH`.
 
 ## Where is `$PATH` defined?
 
@@ -60,3 +60,5 @@ Repeat the process with each path in the list until you find Ruby! My ruby was i
 [BASH and the One True Path](http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/bash-path-activity' title='Path Activity'>Path Activity</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/bash-path-activity'>Understanding PATH</a> on Learn.co and start learning to code for free.</p>
