@@ -1,12 +1,11 @@
 # Path Activity
-## What is `$PATH`?
 
+## What is `$PATH`?
 In your `.bash_profile` (and Unix in general), a variable is characterized by a dollar sign followed by a variable name. Conventionally, environment variable names consist of all uppercase letters. One example of this is `$PATH`.
 
-`$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, you are running a program. But where does that program live? When your computer receives a command to run a program, it will seach for that program in the directories listed in your `$PATH`.
+`$PATH` is a colon-separated list of paths. Each path is just the location of a directory (or "folder") on your system. When you type a command into your command-line, you are running a program. But where does that program live? When your computer receives a command to run a program, it will search for that program in the directories listed in your `$PATH`.
 
 ## Where is `$PATH` defined?
-
 `$PATH` can be defined in a few different places on your computer:
 
 __For an individual user__:
@@ -20,7 +19,6 @@ __For global changes__:
 ## Activity
 
 ### Echo `$PATH`
-
 To gain a better understanding of how `$PATH` works, type in `echo $PATH`. Your terminal should print the value of your `$PATH` variable. Mine looks like this:
 
 ```bash
@@ -48,7 +46,6 @@ On first glance, this looks like an indecipherable string of characters. So let'
 ```
 
 ### Imitate your system
-
 So what happens when your computer tries to run Ruby? In order to find the right version, it searches through the directories listed, __in order__.
 
 Copy the first path in your list, and run `ls DIRECTORY_NAME | grep 'ruby'`. For example, I will run `ls /Users/amandachang/.rvm/gems/ruby-2.2.0-preview1/bin | grep 'ruby'`.
@@ -56,7 +53,6 @@ Copy the first path in your list, and run `ls DIRECTORY_NAME | grep 'ruby'`. For
 Repeat the process with each path in the list until you find Ruby! My ruby was in `/Users/amandachang/.rvm/rubies/ruby-2.2.0-preview1/bin`. Now run `which ruby`. The output should match the directory path that you found manually.
 
 ## Resources
-
-[BASH and the One True Path](http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/)
+- [BASH and the One True Path](http://blog.seldomatt.com/blog/2012/10/08/bash-and-the-one-true-path/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/bash-path-activity' title='Path Activity'>Path Activity</a> on Learn.co and start learning to code for free.</p>
